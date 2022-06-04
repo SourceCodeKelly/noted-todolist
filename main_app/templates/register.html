@@ -1,0 +1,17 @@
+<div>
+    <div>
+        <h1>Signup for Free Account</h1>
+    </div>
+    <div>
+        <form method="POST">
+            {% csrf_token %}
+            {{form.as_p}}
+            <input type="submit" value="Register" />
+        </form>
+    </div>
+    <div>
+        <p>Already have an account? <a href="{% url 'login' %}"><b>Login</b></a></p>
+    </div>
+</div>
+
+
