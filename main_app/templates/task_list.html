@@ -8,7 +8,7 @@
     </div>
     <div>
         <form method="GET">
-            <input type="text" name="Search" placeholder="Search tasks"/>
+            <input type="text" name="search-area" value="{{search_input}}" placeholder="Search tasks"/>
             <input type="submit" value="Search"/>
         </form>
         <a href="{% url 'task-create' %}" %}>Add Task</a>
