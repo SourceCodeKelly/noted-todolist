@@ -6,7 +6,6 @@
  </header>
 <div class="card-body">
     <h1>Task Form</h1>
-    <a href="{% url 'tasks' %}"><h3>Go back</h3></a></g3>
     <form method="POST" action="">
         {% csrf_token %}
         {{form.as_p}}
