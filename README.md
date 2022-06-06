@@ -1,5 +1,5 @@
 # Noted! Todo List
-A to-do list created with Django and PostgreSQL.
+A to-do list created with Python/Django and PostgreSQL.
 
 ![todo-1](https://user-images.githubusercontent.com/96215255/172025333-647d64ce-3c22-4d81-9552-de0abb6f7b7c.jpg)
 ![todo-2](https://user-images.githubusercontent.com/96215255/172025335-955d97c0-8809-448e-84e5-eeebb43e14fd.jpg)
